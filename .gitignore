@@ -1,0 +1,9 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.pem
+terraform.tfvars
+crash.log
+.DS_Store
+*.swp
