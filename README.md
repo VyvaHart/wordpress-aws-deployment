@@ -4,6 +4,9 @@
 
 This project demonstrates the deployment of a highly available and scalable WordPress website on AWS using Infrastructure as Code (Terraform) and an automated deployment script (Bash). The infrastructure includes a custom VPC, public and private subnets, an Application Load Balancer (ALB) for traffic distribution, an EC2 instance hosting WordPress, an RDS MySQL database for data persistence, and an ElastiCache Redis cluster for object caching, enhancing performance. All stateful components (EC2, RDS, Redis) are placed in private subnets for security.
 
+## Architecture Diagram
+![AWS WordPress Architecture](images/architecture_diagram.png)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed and configured:
